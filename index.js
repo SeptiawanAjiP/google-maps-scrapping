@@ -20,7 +20,7 @@ async function searchGoogleMaps() {
 
     const page = await browser.newPage();
 
-    const query = "Laundry di Jakarta";
+    const query = "Toko Bangunan Jakarta";
 
     try {
       await page.goto(
@@ -60,7 +60,7 @@ async function searchGoogleMaps() {
                 resolve();
               }
             }
-          }, 200);
+          }, 700);
         });
       });
     }
@@ -159,7 +159,6 @@ async function init() {
         { id: 'phone', title: 'Phone' },
         { id: 'googleUrl', title: 'Google URL' },
         { id: 'bizWebsite', title: 'Business Website' },
-        
         { id: 'ratingText', title: 'Rating Text' },
         { id: 'stars', title: 'Stars' },
         { id: 'numberOfReviews', title: 'Number of Reviews' },

@@ -13,7 +13,6 @@
     "@sparticuz/chromium": "^119.0.0",
     "cheerio": "^1.0.0-rc.12",
     "csv-writer": "^1.6.0",
-    "puppeteer": "^21.6.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
     "xpath": "^0.0.33"
