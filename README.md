@@ -12,7 +12,7 @@ Ensure you have the following dependencies installed before running the script:
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/SeptiawanAjiP/google-maps-scrapping.git
     cd your-repo
     ```
 
