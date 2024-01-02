@@ -20,7 +20,7 @@ async function searchGoogleMaps() {
 
     const page = await browser.newPage();
 
-    const query = "Toko Bangunan Jakarta";
+    const query = "Coffe shop dijakarta";
 
     try {
       await page.goto(
